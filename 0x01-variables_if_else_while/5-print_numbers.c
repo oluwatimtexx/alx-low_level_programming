@@ -7,12 +7,15 @@
  */
 int main(void)
 {
-	int num = 0;
+	char num = '0';
+	int i = 0;
 	/* your code goes there */
-	for (int i = 0; i < 10; i++)
+	while (i < 10)
 	{
-		printf("%i", num);
+		putchar(num);
+		num++;
+		i++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
