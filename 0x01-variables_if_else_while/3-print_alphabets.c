@@ -18,6 +18,7 @@ int main(void)
 		i++;
 	}
 	letter = 'A';
+	i = 0;
 
 	while (i < 26)
 	{
