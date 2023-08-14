@@ -10,8 +10,8 @@ int main(void)
 
 	for (int i = 0; i < 26; i++)
 	{
-		putchar(ch);
-		ch++;
+		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
