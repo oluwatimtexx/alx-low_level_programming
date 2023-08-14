@@ -1,17 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 #include <stdlib.h>
 /**
- *  main - Entry point
- *  Return: 0
+ * main - Entry point
+ * Return: 0
  */
 int main(void)
 {
 	char letter = 'a';
-
-	for (int i = 0; i < 26; i++)
+	int i = 0;
+	/* your code goes there */
+	while (i < 26)
 	{
 		putchar(letter);
 		letter++;
+		i++;
 	}
 	putchar('\n');
 	return (0);
