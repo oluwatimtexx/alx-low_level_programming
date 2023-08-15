@@ -5,7 +5,7 @@
  * Return: num
  */
 
-int _abs(int num);
+int _abs(int num)
 {
 	if (num > 0 || num == 0)
 	{
