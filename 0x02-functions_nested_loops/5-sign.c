@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_sign - Entry point
+ * @n: is used to recieve input into the function
  * Return: 0 or 1
  */
 
