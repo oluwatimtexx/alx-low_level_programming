@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts - Entry into void funtion to print string
+ * print_rev - Entry into void funtion to print string
  * @s: string holder
  * Return: void
  */
