@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * leet - Entry point to enccoder
  * @a: pointer to string
