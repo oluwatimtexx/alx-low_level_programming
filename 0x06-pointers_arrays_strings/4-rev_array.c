@@ -3,13 +3,20 @@
  * reverse_array - Entry to function that reverses an array
  * @a: this is the array
  * @n: number of elements of the array
- * Return: 
+ * Return: void 
  */
 
 void reverse_array(int *a, int n)
 {
 	int arr;
-	int count;
+	int count = n - 1;
 	int var;
 
-	for (count = 0; arr[count] < 0; 
+	for (arr = 0; arr < count; arr++)
+	{
+		var = a[arr];
+		a[arr] = a[count];
+		a[count] = var;
+		count--;
+	}
+}
