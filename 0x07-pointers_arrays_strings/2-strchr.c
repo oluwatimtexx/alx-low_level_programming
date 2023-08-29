@@ -9,11 +9,17 @@
 char *_strchr(char *s, char c)
 {
 	int count = 0;
+	int j;
 
-	while (s[count] != c)
-	{
-		break;
+	while (s[count] != '\0')
 		count++;
+
+	for (j = 0; j <=count; j++)
+	{
+		if (s[j] == c)
+			return (s + j);
+		else if (s[j] == '\0')
+			s = '\0';
 	}
-	return (c);
+	return (s);
 }
