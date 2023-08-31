@@ -16,6 +16,7 @@ int prime_checker(int n, int i)
 			return (0);
 	}
 	return (0 + prime_checker(n, i + 1));
+}
 /**
  * is_prime_number - Entry point to function that identifies a prime number
  * @n: number to check
