@@ -3,13 +3,14 @@
  * perf_sqrt - return the perfect square root of a num
  * @n: number to find the root
  * @i: root of perf_sqrt
+ * Return: i
  */
 
 int perf_sqrt(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
-	else if ( i * i == n)
+	else if (i * i == n)
 		return (i);
 	else
 		return (perf_sqrt(n, i + 1));
