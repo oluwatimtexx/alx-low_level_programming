@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create_array: function that create array of char using malloc
+ * create_array - function that create array of char usin malloc
  * @size: size of array
  * @c: character passed to array
  * Return: NULL or pointer to the array
